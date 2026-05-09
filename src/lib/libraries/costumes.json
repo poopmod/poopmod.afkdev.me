@@ -11132,6 +11132,40 @@
         "rotationCenterY": 43
     },
     {
+        "name": "poop-a",
+        "tags": [
+            "objects",
+            "poo",
+            "poop",
+            "smelly",
+            "stinky",
+            "mascot"
+        ],
+        "assetId": "03a6f3d0fcec269804fe30fedd406821",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "md5ext": "03a6f3d0fcec269804fe30fedd406821.svg",
+        "rotationCenterX": 104,
+        "rotationCenterY": 42
+    },
+    {
+        "name": "poop-b",
+        "tags": [
+            "objects",
+            "poo",
+            "poop",
+            "smelly",
+            "stinky",
+            "mascot"
+        ],
+        "assetId": "3e9eb3e7f143dca1696d18136fc7d9d8",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "md5ext": "3e9eb3e7f143dca1696d18136fc7d9d8.svg",
+        "rotationCenterX": 87,
+        "rotationCenterY": 47
+    },
+    {
         "name": "Potion-a",
         "tags": [
             "fantasy",

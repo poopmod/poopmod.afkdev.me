@@ -9906,6 +9906,51 @@
         "blocks": {}
     },
     {
+        "name": "Poop",
+        "tags": [
+            "objects",
+            "poo",
+            "poop",
+            "smelly",
+            "stinky",
+            "mascot"
+        ],
+        "isStage": false,
+        "variables": {},
+        "costumes": [
+            {
+                "assetId": "03a6f3d0fcec269804fe30fedd406821",
+                "name": "poop-a",
+                "bitmapResolution": 1,
+                "md5ext": "03a6f3d0fcec269804fe30fedd406821.svg",
+                "dataFormat": "svg",
+                "rotationCenterX": 104,
+                "rotationCenterY": 42
+            },
+            {
+                "assetId": "3e9eb3e7f143dca1696d18136fc7d9d8",
+                "name": "poop-b",
+                "bitmapResolution": 1,
+                "md5ext": "3e9eb3e7f143dca1696d18136fc7d9d8.svg",
+                "dataFormat": "svg",
+                "rotationCenterX": 87,
+                "rotationCenterY": 47
+            }
+        ],
+        "sounds": [
+            {
+                "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+                "name": "pop",
+                "dataFormat": "wav",
+                "format": "",
+                "rate": 44100,
+                "sampleCount": 1032,
+                "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+            }
+        ],
+        "blocks": {}
+    },
+    {
         "name": "Potion",
         "tags": [
             "fantasy",

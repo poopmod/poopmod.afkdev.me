@@ -458,8 +458,8 @@ class LibraryComponent extends React.Component {
                                 hidden={dataItem.hidden}
                                 isNew={dataItem.tags && dataItem.tags.includes("new")}
                                 href={dataItem.href}
-                                iconMd5={dataItem.costumes ? dataItem.costumes[0].md5ext : dataItem.md5ext}
-                                iconRawURL={this.props.actor === "CostumeLibrary" ? `${PM_LIBRARY_API}files/${dataItem.libraryFilePage}` : dataItem.rawURL}
+                                iconMd5={dataItem.rawURL ? null : dataItem.costumes ? dataItem.costumes[0].md5ext : dataItem.md5ext}
+                                iconRawURL={dataItem.rawURL || (this.props.actor === "CostumeLibrary" && dataItem.libraryFilePage ? `${PM_LIBRARY_API}files/${dataItem.libraryFilePage}` : null)}
                                 overlayURL={dataItem.overlayURL}
                                 icons={dataItem.costumes}
                                 id={index}

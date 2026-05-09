@@ -315,7 +315,7 @@ class MenuBar extends React.Component {
         const body = document.body;
         body.style = '';
         if (!effect) return;
-        
+
         // fix some weird sizing, just applies on effects
         body.style = "width:100%;height:100%;position:fixed;overflow:hidden;";
         switch (effect) {
@@ -548,14 +548,14 @@ class MenuBar extends React.Component {
                                     onRequestClose={this.props.onRequestCloseErrors}
                                 >
                                     <MenuSection>
-                                        <MenuItemLink href="https://discord.gg/NZ9MBMYTZh">
+                                        <MenuItemLink href="https://discord.gg/636TkAMWPM">
                                             <FormattedMessage
                                                 defaultMessage="Some scripts could not be compiled."
                                                 description="Link in error menu"
                                                 id="tw.menuBar.reportError1"
                                             />
                                         </MenuItemLink>
-                                        <MenuItemLink href="https://discord.gg/NZ9MBMYTZh">
+                                        <MenuItemLink href="https://discord.gg/636TkAMWPM">
                                             <FormattedMessage
                                                 defaultMessage="This is a bug. Please report it."
                                                 description="Link in error menu"
@@ -809,7 +809,7 @@ class MenuBar extends React.Component {
                                     <ChangeUsername>{changeUsername => (
                                         <MenuItem
                                             className={classNames({ [styles.disabled]: this.props.usernameLoggedIn })}
-                                            onClick={this.props.usernameLoggedIn ? () => {} : changeUsername}
+                                            onClick={this.props.usernameLoggedIn ? () => { } : changeUsername}
                                         >
                                             <FormattedMessage
                                                 defaultMessage="Change Username"
@@ -949,23 +949,15 @@ class MenuBar extends React.Component {
                         ) : []))}
                     </div>
                     <div className={styles.menuBarItem}>
-                        {this.props.isShowingProject && this.props.canEditTitle ?
-                            (<ShareButton
-                                className={styles.menuBarButton}
-                                isShared={this.props.isShared}
-                            />)
-                            : (null)}
-                    </div>
-                    <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://penguinmod.com"
+                            href="https://discord.gg/636TkAMWPM"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="Back to Home"
+                                    defaultMessage="Discord Server"
                                     description="Button to go back to the home page"
                                     id="pm.backToHomeButton"
                                 />

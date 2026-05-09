@@ -51,7 +51,7 @@ const projectData = translateFunction => {
             },
             {
                 isStage: false,
-                name: translator(messages.sprite, { index: 1 }),
+                name: 'Poop',
                 variables: {},
                 lists: {},
                 broadcasts: {},
@@ -60,12 +60,21 @@ const projectData = translateFunction => {
                 currentCostume: 0,
                 costumes: [
                     {
-                        assetId: '592bae6f8bb9c8d88401b54ac431f7b6',
-                        name: translator(messages.costume, { index: 1 }),
+                        assetId: '03a6f3d0fcec269804fe30fedd406821',
+                        name: 'poop-a',
                         bitmapResolution: 1,
-                        md5ext: '592bae6f8bb9c8d88401b54ac431f7b6.svg',
+                        md5ext: '03a6f3d0fcec269804fe30fedd406821.svg',
                         dataFormat: 'svg',
-                        rotationCenterX: 26,
+                        rotationCenterX: 104,
+                        rotationCenterY: 42
+                    },
+                    {
+                        assetId: '3e9eb3e7f143dca1696d18136fc7d9d8',
+                        name: 'poop-b',
+                        bitmapResolution: 1,
+                        md5ext: '3e9eb3e7f143dca1696d18136fc7d9d8.svg',
+                        dataFormat: 'svg',
+                        rotationCenterX: 87,
                         rotationCenterY: 47
                     }
                 ],
